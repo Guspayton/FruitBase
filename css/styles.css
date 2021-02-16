@@ -62,6 +62,7 @@
   line-height: 3;
   padding: .4rem;
 }
+
 .paragraph1 {
   margin-top: 12%;
 }
@@ -79,16 +80,24 @@
 }
 
 @media (max-width:1028px) {
+.carousel-img-spice {
+  width: 250px;
+  margin-bottom: 20%;
+}
   .txt-img, .txt-img1 {
     display: block;
   }
+
   .paragraph, .paragraph1 {
     width: 100%;
   }
+
   .fruit {
     display: block;
-  margin: auto;
+    margin: auto;
+    width: 200px;
   }
+
   .d-flex {
     justify-content: space-evenly;
     background-color: #51892f;
